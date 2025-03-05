@@ -4,4 +4,46 @@ Version control is an essential skill for developers to master, and Git is by fa
 
 Plus, you'll learn how to work with the popular GitHub website to explore existing projects, clone them to your local hard drive, and use them as templates for your new projects.
 
-Test Test
+Github Markdown additions
+
+Footnote
+This is a footnote[^1]. Another footnote[^2].
+
+Table
+| Left | AligntotheCenter | AligntotheRgiht |
+| --- | :---: | ---:|
+| 252 |  256| 4455|
+
+checklist
+- [X] First
+  - [x] one
+  - [ ] two
+- [ ] Second
+
+Collapsed Details
+<details>
+<summary> collapsed </summary>
+### this is what you need to know
+this is what you need to know
+</details>
+
+🫀
+
+
+> [!NOTE]
+> A note
+
+> [!IMPORTANT]
+> Important
+
+> [!WARNING]
+> warning
+
+```mermaid
+graph TD
+  A-->B;
+  A-->C;
+```
+
+[^1]: My Reference
+[^2]: Another Reference
